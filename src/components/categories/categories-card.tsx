@@ -1,4 +1,5 @@
 import { Flex, Image } from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
 import { HorizontalCategoryCard } from './horizontal-category-card'
 import { VerticalCategoryCard } from './vertical-category-card'
 import { Divider } from './divider'
@@ -7,14 +8,16 @@ import BrandImage from '../../assets/brand.jpg'
 export function CategoriesCard() {
   return (
     <Flex direction={['column', 'row']} wrap="wrap" maxW="945px">
-      <HorizontalCategoryCard
-        title="Logo & brand identity pack"
-        price="599"
-        discount={39}
-        description="Lorem ipsum dolor sit, amet consectetur adipisicing elit."
-        includes={['Logo', 'Business card', 'Letterhead & Envelope', 'Facebook cover']}
-        isMostPopular={true}
-      />
+      <Link to="/details">
+        <HorizontalCategoryCard
+          title="Logo & brand identity pack"
+          price="599"
+          discount={39}
+          description="Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+          includes={['Logo', 'Business card', 'Letterhead & Envelope', 'Facebook cover']}
+          isMostPopular={true}
+        />
+      </Link>
 
       <Divider border="borderLeft" />
 
