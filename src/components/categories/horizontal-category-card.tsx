@@ -31,6 +31,7 @@ export function HorizontalCategoryCard({
       _hover={{ transform: 'scale(1.03)', boxShadow: 'lg' }}
       transition="transform 0.5s"
       role="group"
+      cursor="pointer"
     >
       {isMostPopular && <Badge />}
 

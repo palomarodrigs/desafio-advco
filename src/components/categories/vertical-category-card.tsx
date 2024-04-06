@@ -23,6 +23,7 @@ export function VerticalCategoryCard({
       _hover={{ transform: 'scale(1.03)', boxShadow: 'lg' }}
       transition="transform 0.5s"
       role="group"
+      cursor="pointer"
     >
       <Flex direction="column" gap="10px">
         <StarIcon
