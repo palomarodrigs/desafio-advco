@@ -10,7 +10,7 @@ const images = [DesignLogoImage1, DesignLogoImage2]
 
 export function ProductSlide() {
   return (
-    <Box maxW={['370px', '570px']} position="relative">
+    <Box maxW={['370px', '650px']} position="relative">
       <Swiper
         modules={[Pagination]}
         slidesPerView={1}
@@ -22,7 +22,7 @@ export function ProductSlide() {
       >
         {images.map((image, index) => (
           <SwiperSlide key={index} style={{ paddingBottom: '50px' }}>
-            <Image src={image} alt="Design logo image" />
+            <Image src={image} alt="Design logo image" w={['370px', '650px']} />
 
             {index === 0 && (
               <Box
