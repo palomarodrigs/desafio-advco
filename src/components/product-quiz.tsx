@@ -41,7 +41,19 @@ export function ProductQuiz() {
         </Button>
       </Flex>
 
-      <Image src={DesignBrand} w="400px" h="300px" />
+      <Flex direction="column" align="center">
+        <Image src={DesignBrand} w="400px" h="300px" />
+
+        <Text
+          fontFamily="Georgia, sans-serif"
+          fontStyle="italic"
+          fontSize={['15px', '16px']}
+          whiteSpace="nowrap"
+          mb={['20px', '10px']}
+        >
+          Illustration by John Doe
+        </Text>
+      </Flex>
     </Flex>
   )
 }
