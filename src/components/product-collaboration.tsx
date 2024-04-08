@@ -50,7 +50,7 @@ export function ProductCollaboration() {
       <Image
         src={CollaborationMethodContext}
         alt="Collaboration image"
-        w={['100px', '170px']}
+        w={['100px', '95px']}
         position="absolute"
         bottom={['-25px', '0']}
         right="0"
