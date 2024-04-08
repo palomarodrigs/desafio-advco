@@ -1,6 +1,6 @@
 import { Flex } from '@chakra-ui/layout'
 import { CategoryMenu } from '../components/category-menu'
-import { CategoriesCard } from '../components/categories/categories-card'
+import { CategoriesCard } from '../components/categories-card'
 import { ProductQuiz } from '../components/product-quiz'
 
 export function Categories() {

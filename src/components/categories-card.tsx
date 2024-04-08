@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { HorizontalCategoryCard } from './horizontal-category-card'
 import { VerticalCategoryCard } from './vertical-category-card'
 import { Divider } from './divider'
-import BrandImage from '../../assets/brand.jpg'
+import BrandImage from '../assets/brand.jpg'
 
 export function CategoriesCard() {
   return (
