@@ -25,6 +25,7 @@ export function ButtonCategoryMenu({
       bg={bg || 'gray.100'}
       color={color || 'black.800'}
       _hover={disableHover ? { bg: 'brand.100' } : { bg: 'white.100', boxShadow: 'lg' }}
+      transition="0.3s"
     >
       <Text fontSize="19px">{children}</Text>
     </Button>
