@@ -18,7 +18,7 @@ import ContestImage3 from '../assets/contest-3.jpg'
 
 export function ProductInfo() {
   return (
-    <Tabs>
+    <Tabs maxW={['370px', '650px']}>
       <TabList mb={['30px', '0px']} color="gray.200" borderColor="gray.100">
         <Tab
           fontSize={['16px', '19px']}
