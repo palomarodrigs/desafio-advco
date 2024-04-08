@@ -5,7 +5,13 @@ import { FaPhoneAlt } from 'react-icons/fa'
 
 export function Header() {
   return (
-    <Flex align="center" justify="space-between" w="full" p={['16px', '30px']}>
+    <Flex
+      align="center"
+      justify="space-between"
+      w="full"
+      py={['15px', '30px']}
+      px={['20px', '60px']}
+    >
       <BurgerMenu />
 
       <Link to="/">
